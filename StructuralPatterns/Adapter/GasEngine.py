@@ -1,8 +1,7 @@
 class GasEngine:
     volume = 2.4
-    def __init__(self, power : int):
-        self.hp = power
+    hp = 230
     def getVolume(self):
         return self.volume
-    def getPowerHp() -> int:
+    def getPowerHp(self) -> int:
         return self.hp

@@ -3,5 +3,6 @@ from GasEngine import GasEngine
 from ElectroEngine import ElectroEngine
 from Car import Car
 
-car = Car(GasEngine(250))
-car2 = Car(ElectroEngine(100))
+engineAdapter = EngineAdapter()
+car = Car(EngineAdapter())
+print(car.engine.getPower())
