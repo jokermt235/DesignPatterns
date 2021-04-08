@@ -5,4 +5,4 @@ class SelectCommand(Command):
     def __init__(self, database : Database):
         self.database = database
     def execute(self):
-        self.database.insert()
+        self.database.select()
